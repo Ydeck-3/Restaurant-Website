@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
+    <title>Contact Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="home-background">
 
-
-    <header>
-        <ul class="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+   <header>
+        <div class="nav-container">
+            <button class="hamburger" id="hamburger-button">
+                <img src="images/hamburger-menu.webp" alt = "Menu">
+            </button>
+            <ul class="navigation" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
-
     <h1 class="hero">Contact Us</h1>
-
 
     <div class="contact-info">
         <p>Address: 000 Location Dr, New York, NY, 10000</p>
@@ -43,6 +43,8 @@
         </div>
     </div>
 
+    <script src="slider.js"></script>
+    
     <footer>
         <p>Open 11:00 AM - 4:00 AM</p>
         <p>Find us on</p>
